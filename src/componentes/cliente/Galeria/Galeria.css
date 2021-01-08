@@ -2,6 +2,7 @@
     background: var(--gris);
     padding: 10rem 0;
     position: relative;
+    overflow: hidden;
 }
 
 .galeria__content{

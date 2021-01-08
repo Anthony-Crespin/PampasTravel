@@ -11,7 +11,7 @@ const Turismo = () => {
             <div className="turismo__text">
                 <h6>MAPA INTERACTIVO</h6>
                 <p>Ingresa para conocer la ubicacion de los lugares turisticos, ademas de conocer un poco sobre ellos.</p>
-                <a href="/mapa" className="btn btn-primary">VER MAPA</a>
+                <a href="/PampasTravel/mapa" className="btn btn-primary">VER MAPA</a>
             </div>
         </div>
     )
