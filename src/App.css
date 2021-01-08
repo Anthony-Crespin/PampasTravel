@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+:root{
+    --gris: #1A1F25;
+    --white: #fff;
+    --naranja: #F96E37;
+    --azuloscuro: #050E15;
+    --facebook: #3b5998;
+    --instagram: #fcaf45;
+    --github: #6cc644;
+    --poppins: 'Poppins', sans-serif;
+    --oswald: 'Oswald', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body,input{
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: var(--black);
 }
 
-.App-link {
-  color: #61dafb;
+a{
+    text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.btn{
+    width: 18rem;
+    border: none;
+    border-radius: 3px;
+    padding: 1rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    outline: none;
+    letter-spacing: .1rem;
+    background: transparent;
+}
+
+.btn-primary{
+    border: 2px solid var(--white);
+    color: var(--white);
+    transition: all ease-in-out 300ms;
+}
+
+.btn-secondary{
+    border: 2px solid var(--white);
+    background: var(--white);
+    color: var(--gris);
+    transition: all ease-in-out 300ms;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover{
+    border: 2px solid transparent;
+    background: var(--naranja);
+    color: var(--white);
 }

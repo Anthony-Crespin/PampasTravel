@@ -1,0 +1,131 @@
+.mitosLeyendas__container{
+    background: var(--azuloscuro);
+    padding: 10rem 0;
+    position: relative;
+}
+
+.mitosLeyendas__content{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.mitosLeyendas__texto{
+    width: 100%;
+    text-align: center;
+    color: var(--white);
+}
+
+.mitosLeyendas__titulo{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.ml__cards{
+    width: 100%;
+    max-width: 900px;
+    margin: 2rem auto 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: minmax(400px, auto);
+    grid-auto-flow: dense;
+    grid-gap: 10px;
+    position: relative;
+}
+
+.ml__card{
+    color: var(--white);
+    position: relative;
+}
+
+.ml__card::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30rem;
+    background-image: linear-gradient(to top, var(--azuloscuro), transparent);
+    display: block;
+    z-index: 2;
+}
+
+.ml__card:nth-child(1){
+    grid-column: span 1;
+    grid-row: span 2;
+}
+
+.ml__card:nth-child(2){
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.ml__card:nth-child(3){
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.ml__card img{
+    position: relative;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ml__texto{
+    position: absolute;
+    bottom: 0;
+    padding: 2rem;
+    z-index: 3;
+}
+
+.ml__origin{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.ml__nombre{
+    font-size: 2.2rem;
+}
+
+.ml__nombre a{
+    color: var(--white);
+}
+
+.ml__nombre a:hover{
+    text-decoration: underline;
+}
+
+.ml__extracto{
+    font-size: 1.4rem;
+}
+
+.ml__botones{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1000px){
+    .mitosLeyendas__content{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .ml__card:nth-child(1){
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    
+    .ml__card:nth-child(2){
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    
+    .ml__card:nth-child(3){
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+}

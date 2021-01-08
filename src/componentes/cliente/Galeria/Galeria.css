@@ -1,0 +1,132 @@
+.galeria__container{
+    background: var(--gris);
+    padding: 10rem 0;
+    position: relative;
+}
+
+.galeria__content{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.galeria__texto{
+    width: 100%;
+    text-align: center;
+    color: var(--white);
+}
+
+.galeria__titulo{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.galeria__cards{
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+    grid-auto-flow: dense;
+}
+
+.galeria__card{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.galeria__card img{
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: all ease 300ms;
+    opacity: .6;
+}
+
+.galeria__card:hover img{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+@supports(object-fit: cover){
+    .galeria__card img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
+
+.galeria__card:nth-child(1){
+    grid-column-start: span 2;
+    grid-row-start: span 2;
+}
+
+.galeria__card:nth-child(2){
+    grid-column-start: span 2;
+    grid-row-start: span 3;
+}
+
+.galeria__card:nth-child(3){
+    grid-column-start: span 1;
+    grid-row-start: span 1;
+}
+
+.galeria__card:nth-child(4){
+    grid-column-start: span 1;
+    grid-row-start: span 1;
+}
+
+.galeria__card:nth-child(5){
+    grid-column-start: span 1;
+    grid-row-start: span 1;
+}
+
+@media screen and (max-width: 1200px){
+    .galeria__cards{
+        max-width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .galeria__content{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .galeria__card:nth-child(1){
+        grid-column-start: span 5;
+        grid-row-start: span 1;
+    }    
+    .galeria__card:nth-child(2){
+        grid-column-start: span 5;
+        grid-row-start: span 1;
+    }    
+    .galeria__card:nth-child(3){
+        grid-column-start: span 5;
+        grid-row-start: span 1;
+    }    
+    .galeria__card:nth-child(4){
+        grid-column-start: span 5;
+        grid-row-start: span 1;
+    }    
+    .galeria__card:nth-child(5){
+        grid-column-start: span 5;
+        grid-row-start: span 1;
+    }
+    .galeria__card:nth-child(6){
+        grid-column-start: span 5;
+        grid-row-start: span 1;
+    }
+    .galeria__card:nth-child(7){
+        grid-column-start: span 5;
+        grid-row-start: span 1;
+    }
+}

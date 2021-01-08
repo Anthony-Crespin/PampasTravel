@@ -1,0 +1,139 @@
+.footer__container{
+    background: var(--azuloscuro);
+    color: var(--white);
+}
+
+.footer__content{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 6rem 0;
+}
+
+.footer__contacto{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.footer__text{
+    width: 48%;
+}
+
+.footer__text h5{
+    font-size: 5rem;
+    font-weight: 800;
+    line-height: 5rem;
+    margin-bottom: 3rem;
+}
+
+.footer__text hr{
+    width: 5rem;
+    height: 5px;
+    background: var(--white);
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.footer__form{
+    width: 48%;
+}
+
+.footer__form input,
+.footer__form textarea{
+    max-width: 100%;
+    min-width: 100%;
+    font-family: poppins;
+    font-size: 1.4rem;
+    outline: none;
+    padding: .5rem;
+    background: transparent;
+    border: none;
+    border-bottom: 1.5px solid var(--white);
+    font-weight: 500;
+}
+
+.footer__form input::placeholder,
+.footer__form textarea::placeholder{
+    color: var(--naranja);
+}
+
+.footer__form input{
+    margin-bottom: 2rem;
+}
+
+.footer__form textarea{
+    min-height: 100px;
+    color: var(--white);
+}
+
+.footer__main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__redes ul{
+    list-style: none;
+    display: flex;
+}
+
+.footer__redes ul li:not(:last-child){
+    margin-right: 2rem;
+}
+
+.footer__redes ul li a svg{
+    font-size: 2.5rem;
+    color: var(--white);
+}
+
+.footer__redes ul li:nth-child(1):hover a svg{
+    color: var(--facebook);
+}
+
+.footer__redes ul li:nth-child(2):hover a svg{
+    color: var(--instagram);
+}
+
+.footer__redes ul li:nth-child(3):hover a svg{
+    color: var(--github);
+}
+
+@media screen and (max-width: 1300px){
+    .footer__content{
+        max-width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .footer__content{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .footer__contacto{
+        flex-direction: column;
+    }
+    .footer__text{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .footer__form{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .footer__text h5{
+        font-size: 4rem;
+    }
+    .footer__main{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer__copy{
+        margin-bottom: 2rem;
+    }
+}
