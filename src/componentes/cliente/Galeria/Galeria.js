@@ -19,25 +19,25 @@ const Galeria = () => {
                 <SimpleReactLightbox>
                     <SRLWrapper>
                         <div className="galeria__cards">
-                            <div className="galeria__card" data-aos="fade-left">
+                            <div className="galeria__card" data-aos="fade-right">
                                 <img src={uno} alt="Nombre del mito o leyenda" loading="lazy"/>
                             </div>
-                            <div className="galeria__card" data-aos="fade-left">
+                            <div className="galeria__card" data-aos="fade-right">
                                 <img src={dos} alt="Nombre del mito o leyenda" loading="lazy"/>
                             </div>
-                            <div className="galeria__card" data-aos="fade-left">
+                            <div className="galeria__card" data-aos="fade-right">
                                 <img src={tres} alt="Nombre del mito o leyenda" loading="lazy"/>
                             </div>
-                            <div className="galeria__card" data-aos="fade-left">
+                            <div className="galeria__card" data-aos="fade-right">
                                 <img src={cuatro} alt="Nombre del mito o leyenda" loading="lazy"/>
                             </div>
-                            <div className="galeria__card" data-aos="fade-left">
+                            <div className="galeria__card" data-aos="fade-right">
                                 <img src={cinco} alt="Nombre del mito o leyenda" loading="lazy"/>
                             </div>
-                            <div className="galeria__card" data-aos="fade-left">
+                            <div className="galeria__card" data-aos="fade-right">
                                 <img src={cuatro} alt="Nombre del mito o leyenda" loading="lazy"/>
                             </div>
-                            <div className="galeria__card" data-aos="fade-left">
+                            <div className="galeria__card" data-aos="fade-right">
                                 <img src={cinco} alt="Nombre del mito o leyenda" loading="lazy"/>
                             </div>
                         </div>
