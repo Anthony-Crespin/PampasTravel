@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PampasTravel/static/css/main.01db0514.chunk.css",
-    "main.js": "/PampasTravel/static/js/main.0bc2149e.chunk.js",
-    "main.js.map": "/PampasTravel/static/js/main.0bc2149e.chunk.js.map",
+    "main.js": "/PampasTravel/static/js/main.d13c07da.chunk.js",
+    "main.js.map": "/PampasTravel/static/js/main.d13c07da.chunk.js.map",
     "runtime-main.js": "/PampasTravel/static/js/runtime-main.34c76c92.js",
     "runtime-main.js.map": "/PampasTravel/static/js/runtime-main.34c76c92.js.map",
     "static/css/2.1c9f1801.chunk.css": "/PampasTravel/static/css/2.1c9f1801.chunk.css",
@@ -31,6 +31,6 @@
     "static/css/2.1c9f1801.chunk.css",
     "static/js/2.fc68124b.chunk.js",
     "static/css/main.01db0514.chunk.css",
-    "static/js/main.0bc2149e.chunk.js"
+    "static/js/main.d13c07da.chunk.js"
   ]
 }
