@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/PampasTravel/static/css/main.01db0514.chunk.css",
+    "main.js": "/PampasTravel/static/js/main.66b1f3a5.chunk.js",
+    "main.js.map": "/PampasTravel/static/js/main.66b1f3a5.chunk.js.map",
+    "runtime-main.js": "/PampasTravel/static/js/runtime-main.34c76c92.js",
+    "runtime-main.js.map": "/PampasTravel/static/js/runtime-main.34c76c92.js.map",
+    "static/css/2.1c9f1801.chunk.css": "/PampasTravel/static/css/2.1c9f1801.chunk.css",
+    "static/js/2.fc68124b.chunk.js": "/PampasTravel/static/js/2.fc68124b.chunk.js",
+    "static/js/2.fc68124b.chunk.js.map": "/PampasTravel/static/js/2.fc68124b.chunk.js.map",
+    "index.html": "/PampasTravel/index.html",
+    "static/css/2.1c9f1801.chunk.css.map": "/PampasTravel/static/css/2.1c9f1801.chunk.css.map",
+    "static/css/main.01db0514.chunk.css.map": "/PampasTravel/static/css/main.01db0514.chunk.css.map",
+    "static/js/2.fc68124b.chunk.js.LICENSE.txt": "/PampasTravel/static/js/2.fc68124b.chunk.js.LICENSE.txt",
+    "static/media/brujula.f0f9851e.svg": "/PampasTravel/static/media/brujula.f0f9851e.svg",
+    "static/media/cerros.69fad02c.jpg": "/PampasTravel/static/media/cerros.69fad02c.jpg",
+    "static/media/cinco.f97f588f.jpg": "/PampasTravel/static/media/cinco.f97f588f.jpg",
+    "static/media/cuatro.3c656848.jpg": "/PampasTravel/static/media/cuatro.3c656848.jpg",
+    "static/media/dos.f3ad13b6.jpg": "/PampasTravel/static/media/dos.f3ad13b6.jpg",
+    "static/media/gatonegro.b4e4c8bc.jpg": "/PampasTravel/static/media/gatonegro.b4e4c8bc.jpg",
+    "static/media/Suscripcion.css": "/PampasTravel/static/media/img-home.c034239e.jpg",
+    "static/media/laguna.25a457dd.jpg": "/PampasTravel/static/media/laguna.25a457dd.jpg",
+    "static/media/marker.56d4791d.svg": "/PampasTravel/static/media/marker.56d4791d.svg",
+    "static/media/noche.59e75226.mp4": "/PampasTravel/static/media/noche.59e75226.mp4",
+    "static/media/pampasMap.1127af7e.png": "/PampasTravel/static/media/pampasMap.1127af7e.png",
+    "static/media/tres.a3a9d874.jpg": "/PampasTravel/static/media/tres.a3a9d874.jpg",
+    "static/media/uno.aea10915.jpg": "/PampasTravel/static/media/uno.aea10915.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.34c76c92.js",
+    "static/css/2.1c9f1801.chunk.css",
+    "static/js/2.fc68124b.chunk.js",
+    "static/css/main.01db0514.chunk.css",
+    "static/js/main.66b1f3a5.chunk.js"
+  ]
+}
