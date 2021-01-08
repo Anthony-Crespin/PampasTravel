@@ -9,8 +9,8 @@ function App() {
     <>
     <Router>
       <Switch>
-        <Route exact path="/home" component={Inicio} />
-        <Route exact path="/mapa" component={Mapa}/>
+        <Route exact path="/PampasTravel" component={Inicio} />
+        <Route exact path="/PampasTravel/mapa" component={Mapa}/>
       </Switch>
     </Router>
     </>
